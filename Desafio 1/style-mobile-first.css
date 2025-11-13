@@ -1,0 +1,81 @@
+* {
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove espaçamentos padrão */
+    box-sizing: border-box; /* Define o box-sizing para border-box */
+    font-family: "Raleway", sans-serif; /* Fonte Raleway */
+    font-weight: 400; /* Peso da fonte padrão */
+    
+}
+
+body {
+    width: 100vw;
+    background-color: #000; /* Cor de fundo preta */
+    color: #fff; /* Cor do texto branca */
+    text-align: center; /* Centraliza o texto */
+    padding: 30px; /* Espaçamento interno */
+}
+
+/* Estilos para o cabeçalho */
+
+header {
+    display: flex; /* Usa flexbox para layout */
+    justify-content: flex-end; /* Alinha o conteúdo à direita */
+    padding: 30px; /* Espaçamento interno */
+}
+
+/* Estilos para o botão do cabeçalho */
+
+.button-header {
+    background-color: #A8FF35; /* Cor de fundo verde-limão */
+    border: 2px solid #000; /* Borda branca */
+    color: #000; /* Cor do texto branca */
+    padding: 10px 20px; /* Espaçamento interno */
+    cursor: pointer; /* Cursor de ponteiro ao passar o mouse */
+    font-size: 18px; /* Tamanho da fonte */
+}
+
+/* Estilos para a seção principal */
+
+section {
+    margin-top: 50px; /* Margem no topo para separar do cabeçalho*/
+    margin-bottom: 50px; /* Margem na parte inferior */
+}
+
+/* Estilos para o título principal */
+
+h1 {
+    font-size: 36px; /* Tamanho da fonte */
+    font-weight: 900; /* Fonte bem grossa (nrgrito) */
+    margin-bottom: 20px; /* Margem inferior */
+}
+
+/* Estilos para o parágrafo */
+
+p {
+    font-size: 16px; /* Tamanho da fonte */
+    line-height: 1.5; /* Altura da linha */
+    max-width: 400px; /* Largura máxima para melhor legibilidade */
+    margin: 0 auto 30px; /* Centraliza o parágrafo e adiciona margem inferior */
+}
+
+/* Estilos para o botão "learn more" */
+
+.button-leam-more {
+    background-color: #A8FF35; /*cor de fundo verde-limão */
+    color:#000; /* Cor do texto preta */
+    border:none; /* Remove a borda padrão */
+    padding: 15px 30px; /* Espaçamento interno */
+    border-radius: 25px; /* Bordas arredondadas */
+    font-size: 18px; /* Tamanho da fonte */
+    font-weight: 700; /* Fonte em negrito */
+    cursor: pointer; /* Cursor de ponteiro ao passar o mouse */
+}
+
+/* Estilos para a imagem */
+
+img {
+    width: 100%; /* A imagem ocupa toda a largura do contêiner */
+    max-width: 400px; /* Largura máxima da imagem */
+    height: auto; /* Mantém a proporção da imagem */
+    margin-top: 30px; /* Margem no topo */
+}
