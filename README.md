@@ -10,9 +10,8 @@ Este é um projeto de uma landing page simples para um serviço fictício chamad
 
 ## 🖥️ Preview
 
-<imag src="https://github.com/Fred1416/Site-novo/blob/master/site%20basico/assets/Wire%20coverage%20location.png?raw=true" />
+<img src="https://github.com/Fred1416/Site-novo/blob/master/site%20basico/assets/Wire%20coverage%20location.png" />
 
-*(Nota: Para que a imagem apareça, você precisará tirar um print da sua página, salvar como `preview.png` e colocar dentro da pasta `assets`.)*
 
 ## 🚀 Tecnologias Utilizadas
 
